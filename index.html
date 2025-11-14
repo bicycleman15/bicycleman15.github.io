@@ -66,7 +66,7 @@
 					<tr>
             <td style="padding-top:30px;padding-left:30px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src='images/cat_diagram.png' width="160">
+                <img src='images/trade_offs.png' width="180" height="75">
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -82,7 +82,9 @@
               <a target="_blank" href="https://x.com/bicycleman15/status/1987895472409673972?s=20">Tweet</a> /
               <a target="_blank" href="https://github.com/rajesh-lab/cat-transformer">Code</a>
               <p>
-              <strong>tldr;</strong> We propose an architecture that provides a <i>knob</i> to control quality-efficiency trade-offs directly at test-time, without requiring any retraining. Key idea is to model chunks of tokens given compressed representations of past chunks in the sequence so far. Compression results in a reduced sequence length, offering upto <b>3x</b> speedups and <b>9x</b> memory reductions.
+              <strong>tldr;</strong> We propose an architecture that provides a <i>knob</i> to control quality-efficiency trade-offs directly at test-time, without requiring any retraining.
+              A single adaptive model outperforms efficient baselines, all trained for different quality-efficiency points.
+              <!-- Key idea is to model chunks of tokens given compressed representations of past chunks in the sequence so far. Compression results in a reduced sequence length, offering upto <b>3x</b> speedups and <b>9x</b> memory reductions. -->
               </p>
             </td>
           </tr>
@@ -105,7 +107,7 @@
               <a target="_blank" href="https://x.com/bicycleman15/status/1966989129444716929?s=20">Tweet 1</a> / <a target="_blank" href="https://x.com/AnirudhBuvanesh/status/1966986349124481152?s=20">Tweet 2</a> /
               <a target="_blank" href="https://github.com/rl4reasoning/rl-baselines">Code</a>
               <p>
-                <strong>tldr;</strong> We benchmarked numerous RL baselines on a simple star-graph task where they underperform in zero reward scenarios, even those specially designed for under such scenarios.
+                <strong>tldr;</strong> We benchmarked recent RL algorithms on a simple star-graph task where they fail in zero reward scenarios, even those specially designed for this case.
                 Turns out, a very simple data-centric intervention of just adding easy samples of the task helps unlock RL training!
               </p>
             </td>
@@ -191,7 +193,7 @@
               <a target="_blank" href="https://github.com/microsoft/renee/blob/main/Renee-Camera-Ready.pdf">Paper</a> /
               <a target="_blank" href="https://github.com/microsoft/renee">Code</a>
               <p> 
-                <strong>tldr;</strong> We unlock end-to-end training of large-scale retrieval (extreme classification) models that scales to 100M+ documents and 1B+ training examples. Simple end-to-end learning outperforms complicated, modular SOTA methods. This work has been <b>deployed in Microsoft Bing.</b> 
+                <strong>tldr;</strong> We unlock end-to-end training of large-scale retrieval (extreme classification) models that scales to 100M+ documents and 1B+ training examples, reducing training time from weeks to under a day. Turns out, simple end-to-end learning outperforms complicated, modular SOTA methods. This work has been <b>deployed in Microsoft Bing.</b> 
               </p>
             </td>
           </tr>
