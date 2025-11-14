@@ -76,14 +76,14 @@
               <a target="_blank" style="color:black">Aahlad Puli</a>, 
 							<a target="_blank" style="color:black">Rajesh Ranganath</a>
               <br><em>preprint</em> 2025 <strong><a target="_blank" style="color:red">(New!)</a></strong>
-              <br><em>Abridged version at ICML 2025 Efficient Systems for Foundation Models III (ES-FoMo)</em> workshop
+              <br><em>ICML 2025 Efficient Systems for Foundation Models III (ES-FoMo)</em> workshop
               <br>
               <a target="_blank" href="https://arxiv.org/abs/2511.05313">Paper</a> /
               <a target="_blank" href="https://x.com/bicycleman15/status/1987895472409673972?s=20">Tweet</a> /
               <a target="_blank" href="https://github.com/rajesh-lab/cat-transformer">Code</a>
-              <!-- <p>
-                We show that world knowledge is necessary for mitigating missing labels in extreme classification.
-              </p> -->
+              <p>
+              <strong>tldr;</strong> We propose an architecture that provides a <i>knob</i> to control quality-efficiency trade-offs directly at test-time, without requiring any retraining. Key idea is to model chunks of tokens given compressed representations of past chunks in the sequence so far. Compression results in a reduced sequence length, offering upto <b>3x</b> speedups and <b>9x</b> memory reductions.
+              </p>
             </td>
           </tr>
 
@@ -104,9 +104,10 @@
               <a target="_blank" href="https://arxiv.org/abs/2510.03971">arXiv</a> /
               <a target="_blank" href="https://x.com/bicycleman15/status/1966989129444716929?s=20">Tweet 1</a> / <a target="_blank" href="https://x.com/AnirudhBuvanesh/status/1966986349124481152?s=20">Tweet 2</a> /
               <a target="_blank" href="https://github.com/rl4reasoning/rl-baselines">Code</a>
-              <!-- <p>
-                We show that world knowledge is necessary for mitigating missing labels in extreme classification.
-              </p> -->
+              <p>
+                <strong>tldr;</strong> We benchmarked numerous RL baselines on a simple star-graph task where they underperform in zero reward scenarios, even those specially designed for under such scenarios.
+                Turns out, a very simple data-centric intervention of just adding easy samples of the task helps unlock RL training!
+              </p>
             </td>
           </tr>
 
@@ -131,9 +132,9 @@
               <a target="_blank" href="https://arxiv.org/abs/2510.20817">Paper</a>
               <!-- <a target="_blank" href="https://x.com/bicycleman15/status/1987895472409673972?s=20">Tweet</a> / -->
               <!-- <a target="_blank" href="https://github.com/rajesh-lab/cat-transformer">Code</a> -->
-              <!-- <p>
-                We show that world knowledge is necessary for mitigating missing labels in extreme classification.
-              </p> -->
+              <p>
+                <strong>tldr;</strong> We understand diversity collapse problem in RL, and how to principally fix it in 2 lines of code. Key idea is viewing KL-regularized RL as distribution matching to a target distribution. Our work explores how to define a <i>good</i> target for the proposal distribution (or policy in case of RL) that avoids mode collapse.
+              </p>
             </td>
           </tr>
 
@@ -161,9 +162,10 @@
               <a target="_blank" href="https://arxiv.org/abs/2408.09585">Paper</a> /
               <a target="_blank" href="https://openreview.net/forum?id=I84W4YjOTD">Reviews</a> /
               <a target="_blank" href="https://github.com/bicycleman15/skim">Code</a>
-              <!-- <p>
-                We show that world knowledge is necessary for mitigating missing labels in extreme classification.
-              </p> -->
+              <p>
+                <strong>tldr;</strong> A simple, scalable and data-centric algorithm to mitigate <i>bad quality</i> click-data problem in retrieval (extreme classification), that scales to real-world industry query-ads datasets containing upto 10M+ documents. This outperforms SOTA significantly, highlighting the importance of <i>good quality</i> dataset (that contains diverse world knowledge) for retrieval. Part of this work has been <b>deployed in Microsoft Bing.</b>
+                
+              </p>
             </td>
           </tr>
 
@@ -188,9 +190,9 @@
               <br>
               <a target="_blank" href="https://github.com/microsoft/renee/blob/main/Renee-Camera-Ready.pdf">Paper</a> /
               <a target="_blank" href="https://github.com/microsoft/renee">Code</a>
-              <!-- <p></p>
-              <p> We show that latent space based concept detection and removal methods like Null-Space Removal (INLP) and adversarial removal, which internally uses probing classifiers,  are unreliable. They fail to remove the desired concept and, in the worst case, remove or corrupt other features or concepts from the latent space of the classifier.
-              </p> -->
+              <p> 
+                <strong>tldr;</strong> We unlock end-to-end training of large-scale retrieval (extreme classification) models that scales to 100M+ documents and 1B+ training examples. Simple end-to-end learning outperforms complicated, modular SOTA methods. This work has been <b>deployed in Microsoft Bing.</b> 
+              </p>
             </td>
           </tr>
 
