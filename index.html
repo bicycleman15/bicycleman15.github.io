@@ -23,10 +23,10 @@
 
               <p>I'm a <del>first</del> second year CS PhD student at New York University advised by <a target="_blank" href="https://rajesh-lab.github.io/">Prof. Rajesh Ranganath</a>. I am also part of the <a target="_blank" href="https://wp.nyu.edu/cilvr/">CILVR Lab</a>.
 
-                <p>I am broadly interested in designing <i>scalable, practical and efficient</i> <strong>architectures</strong> and <strong>training algorithms:</strong> both pre-training and post-training.
+                <p>I am broadly interested in designing <i>scalable, practical and efficient</i> <strong>foundation model architectures</strong> and <strong>training algorithms:</strong> both pre-training and post-training.
 
-                <p>I wish to accomplish this by tackling every part of the modeling stack: 
-                  from <strong>data</strong> [<a target="_blank" href="https://spiffy-airbus-472.notion.site/What-Can-You-Do-When-You-Have-Zero-Rewards-During-RL-260429bdb7308024b6bdd3ed4f64c15f">1</a>, <a target="_blank" href="https://arxiv.org/abs/2408.09585">2</a>], to <strong>model architectures</strong> [<a target="_blank" href="https://arxiv.org/abs/2511.05313">3</a>], to <strong>training algorithms</strong> [<a target="_blank" href="https://arxiv.org/abs/2510.20817">4</a>], and <strong>system optimizations</strong> [<a target="_blank" href="https://github.com/microsoft/renee/blob/main/Renee-Camera-Ready.pdf">5</a>].
+                <p>I believe to accomplish this, one must tackle every part of the modeling stack. 
+                  To this end, I have worked on: <strong>data</strong> curation [<a target="_blank" href="https://spiffy-airbus-472.notion.site/What-Can-You-Do-When-You-Have-Zero-Rewards-During-RL-260429bdb7308024b6bdd3ed4f64c15f">1</a>, <a target="_blank" href="https://arxiv.org/abs/2408.09585">2</a>], designing novel <strong>model architectures</strong> [<a target="_blank" href="https://arxiv.org/abs/2511.05313">3</a>], improving <strong>training algorithms</strong> [<a target="_blank" href="https://arxiv.org/abs/2510.20817">4</a>], and low-level <strong>system optimizations</strong> [<a target="_blank" href="https://github.com/microsoft/renee/blob/main/Renee-Camera-Ready.pdf">5</a>].
               
               <p>Previously, I spent two <i>amazing</i> years at <a target="_blank" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/">Microsoft Research</a>, where I was advised by <a target="_blank" href="http://manikvarma.org/">Dr. Manik Varma</a> and <a target="_blank" href="http://www.amitsharma.in/">Dr. Amit Sharma</a>. Some of my research during this time found its way into Microsoft Bing [<a target="_blank" href="https://arxiv.org/abs/2408.09585">2</a>, <a target="_blank" href="https://github.com/microsoft/renee/blob/main/Renee-Camera-Ready.pdf">5</a>].
               <p>
@@ -60,7 +60,7 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 					
-					<heading style="width:200%;vertical-align:middle;font-size:25px">Research</heading><br>
+					<heading style="width:200%;vertical-align:middle;font-size:25px">Selected Research</heading><br>
 
 
           <!-- Paper -->
@@ -83,8 +83,8 @@
               <a target="_blank" href="https://x.com/bicycleman15/status/1987895472409673972?s=20">Tweet</a> /
               <a target="_blank" href="https://github.com/rajesh-lab/cat-transformer">Code</a>
               <p>
-              <strong>tldr;</strong> We propose an architecture that provides a <i>knob</i> to control quality-efficiency trade-offs directly at test-time, without requiring any retraining.
-              The proposed adaptive model outperforms efficient baselines across varying compute-memory budgets, all using a single model only.
+              <strong>tldr;</strong> We design a language modeling architecture that gives you a “knob” to control efficiency at test-time, allowing a single model to span the whole spectrum of full-to-efficient without any re-training -- trading-off quality for efficiency directly at test-time. This is unlike prior works that require training from scratch to target particular quality-efficiency trade-offs.
+              <!-- The proposed adaptive model outperforms efficient baselines across varying compute-memory budgets, all using a single model only. -->
               <!-- Key idea is to model chunks of tokens given compressed representations of past chunks in the sequence so far. Compression results in a reduced sequence length, offering upto <b>3x</b> speedups and <b>9x</b> memory reductions. -->
               </p>
             </td>
