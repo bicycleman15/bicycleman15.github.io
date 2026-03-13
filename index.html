@@ -64,6 +64,7 @@
 
 
           <!-- Paper -->
+          <!-- <strong><a target="_blank" style="color:red">(New!)</a></strong> -->
 					<tr>
             <td style="padding-top:30px;padding-left:30px;width:25%;vertical-align:middle">
               <div class="one">
@@ -76,7 +77,7 @@
               <strong>Jatin Prakash</strong>,
               <a target="_blank" style="color:black">Aahlad Puli</a>, 
 							<a target="_blank" style="color:black">Rajesh Ranganath</a>
-              <br><em>preprint</em> 2025 <strong><a target="_blank" style="color:red">(New!)</a></strong>
+              <br><em>preprint</em> 2025 
               <br><em>ICML 2025 Efficient Systems for Foundation Models III (ES-FoMo)</em> workshop
               <br>
               <a target="_blank" href="https://arxiv.org/abs/2511.05313">Paper</a> /
@@ -86,30 +87,6 @@
               <strong>tldr;</strong> We design a language modeling architecture that gives you a “knob” to control efficiency at test-time, allowing a single model to span the whole spectrum of full-to-efficient without any re-training -- trading-off quality for efficiency directly at test-time. This is unlike prior works that require training from scratch to target particular quality-efficiency trade-offs.
               <!-- The proposed adaptive model outperforms efficient baselines across varying compute-memory budgets, all using a single model only. -->
               <!-- Key idea is to model chunks of tokens given compressed representations of past chunks in the sequence so far. Compression results in a reduced sequence length, offering upto <b>3x</b> speedups and <b>9x</b> memory reductions. -->
-              </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding-top:30px;padding-left:30px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src='images/zero_rewards.webp' width="160">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-                <papertitle>What Can You Do When You Have Zero Rewards During RL?</papertitle>
-              <br>
-              <strong>Jatin Prakash*</strong>,
-              <a target="_blank" style="color:black">Anirudh Buvanesh*</a>
-              <br><em>Blog</em> 2025 <strong><a target="_blank" style="color:red">(New!)</a></strong>
-              <br>
-              <a target="_blank" href="https://spiffy-airbus-472.notion.site/What-Can-You-Do-When-You-Have-Zero-Rewards-During-RL-260429bdb7308024b6bdd3ed4f64c15f">Blog</a> /
-              <a target="_blank" href="https://arxiv.org/abs/2510.03971">arXiv</a> /
-              <a target="_blank" href="https://x.com/bicycleman15/status/1966989129444716929?s=20">Tweet 1</a> / <a target="_blank" href="https://x.com/AnirudhBuvanesh/status/1966986349124481152?s=20">Tweet 2</a> /
-              <a target="_blank" href="https://github.com/rl4reasoning/rl-baselines">Code (RL reasoning baselines)</a>
-              <p>
-                <strong>tldr;</strong> We benchmarked recent RL algorithms on a simple star-graph task where they fail in zero reward scenarios, even those specially designed for this case.
-                Turns out, a very simple data-centric intervention of just adding easy samples of the task helps unlock RL training. Open-sourced implementations for many RL baselines (that had no official code) for the community to build upon.
               </p>
             </td>
           </tr>
@@ -129,7 +106,7 @@
               <a target="_blank" style="color:black">Jeff Guo</a>, 
 							<a target="_blank" style="color:black">Rob Fergus</a>,
               <a target="_blank" style="color:black">Rajesh Ranganath</a>
-              <br><em>preprint</em> 2025 <strong><a target="_blank" style="color:red">(New!)</a></strong>
+              <br><em>ICLR</em> 2026
               <br><em>NeurIPS 2025 Foundations of Reasoning in Language Models (RoRLM) </em> workshop
               <br>
               <a target="_blank" href="https://arxiv.org/abs/2510.20817">Paper</a>
@@ -137,6 +114,30 @@
               <!-- <a target="_blank" href="https://github.com/rajesh-lab/cat-transformer">Code</a> -->
               <p>
                 <strong>tldr;</strong> We understand diversity collapse problem in RL, and how to principally fix it in 2 lines of code. Key idea is viewing KL-regularized RL as distribution matching to a target distribution. Our work explores how to define a <i>good</i> target for the proposal distribution (or policy in case of RL) that avoids mode collapse.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-top:30px;padding-left:30px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/zero_rewards.webp' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>What Can You Do When You Have Zero Rewards During RL?</papertitle>
+              <br>
+              <strong>Jatin Prakash*</strong>,
+              <a target="_blank" style="color:black">Anirudh Buvanesh*</a>
+              <br><em>Blog</em> 2025
+              <br>
+              <a target="_blank" href="https://spiffy-airbus-472.notion.site/What-Can-You-Do-When-You-Have-Zero-Rewards-During-RL-260429bdb7308024b6bdd3ed4f64c15f">Blog</a> /
+              <a target="_blank" href="https://arxiv.org/abs/2510.03971">arXiv</a> /
+              <a target="_blank" href="https://x.com/bicycleman15/status/1966989129444716929?s=20">Tweet 1</a> / <a target="_blank" href="https://x.com/AnirudhBuvanesh/status/1966986349124481152?s=20">Tweet 2</a> /
+              <a target="_blank" href="https://github.com/rl4reasoning/rl-baselines">Code (RL reasoning baselines)</a>
+              <p>
+                <strong>tldr;</strong> We benchmarked recent RL algorithms on a simple star-graph task where they fail in zero reward scenarios, even those specially designed for this case.
+                Turns out, a very simple data-centric intervention of just adding easy samples of the task helps unlock RL training. Open-sourced implementations for many RL baselines (that had no official code) for the community to build upon.
               </p>
             </td>
           </tr>
